@@ -1,0 +1,5 @@
+/fsh-generated/resources/
+/input/fsh/
+/input/resources/
+package.json
+*.rules.yaml

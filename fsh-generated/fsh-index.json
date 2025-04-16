@@ -1,0 +1,18 @@
+[
+  {
+    "outputFile": "Patient-EveAnyperson.json",
+    "fshName": "EveAnyperson",
+    "fshType": "Instance",
+    "fshFile": "patient-instance.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "StructureDefinition-MyPatient.json",
+    "fshName": "MyPatient",
+    "fshType": "Profile",
+    "fshFile": "patient.fsh",
+    "startLine": 4,
+    "endLine": 8
+  }
+]
