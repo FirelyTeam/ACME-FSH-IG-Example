@@ -21,17 +21,17 @@
     "resource": [
       {
         "reference": {
-          "reference": "Patient/EveAnyperson"
-        },
-        "name": "EveAnyperson",
-        "exampleCanonical": "https://fake-acme.org/fhir/ACME-FSH-IG-Example/StructureDefinition/MyPatient"
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/MyPatient"
         },
         "name": "MyPatient",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/EveAnyperson"
+        },
+        "name": "EveAnyperson",
+        "exampleCanonical": "https://fake-acme.org/fhir/ACME-FSH-IG-Example/StructureDefinition/MyPatient"
       }
     ],
     "page": {
