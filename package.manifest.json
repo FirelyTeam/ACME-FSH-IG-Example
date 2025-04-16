@@ -1,8 +1,6 @@
 {
-  "version": "0.1.0",
-  "fhirVersion": [
-    "4.0.1"
-  ],
-  "date": "20220922175729",
-  "name": "acme.fsh.ig.example"
+  "version" : "0.1.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20250416124330",
+  "name" : "acme.fsh.ig.example"
 }

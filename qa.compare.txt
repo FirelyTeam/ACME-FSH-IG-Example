@@ -1,0 +1,31 @@
+ACMEFSHIGExample : Validation Results
+=========================================
+
+err = 1, warn = 8, info = 7
+$--
+Generated $--. FHIR version $-- for acme.fsh.ig.example#$-- (canonical = https://fake-acme.org/fhir/ACME-FSH-IG-Example)
+ Build Errors : 0 / 7 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-acme.fsh.ig.example : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-EveAnyperson : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MyPatient : 1 / 1 / 8
+</table>
+== n/a ==
+WARNING: ImplementationGuide.dependency[2].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MyPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/EveAnyperson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-acme.fsh.ig.example.json ==
+== fsh-generated/resources/Patient-EveAnyperson.json ==
+== fsh-generated/resources/StructureDefinition-MyPatient.json ==
+WARNING: StructureDefinition/MyPatient: StructureDefinition.mapping[0].uri: URL value 'http://unknown.org/Argonaut-DQ-DSTU2' does not resolve
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[19].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[28].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[40].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[48].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[64].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[78].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+ERROR: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[10].binding: The element Patient.extension has a binding, but no bindable types are present [Extension]

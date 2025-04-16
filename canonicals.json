@@ -1,16 +1,16 @@
 [
   {
-    "id": "acme.fsh.ig.example",
-    "type": "ImplementationGuide",
-    "url": "https://fake-acme.org/fhir/ACME-FSH-IG-Example/ImplementationGuide/acme.fsh.ig.example",
-    "version": "0.1.0",
-    "name": "ACMEFSHIGExample"
+    "id" : "acme.fsh.ig.example",
+    "type" : "ImplementationGuide",
+    "url" : "https://fake-acme.org/fhir/ACME-FSH-IG-Example/ImplementationGuide/acme.fsh.ig.example",
+    "version" : "0.1.0",
+    "name" : "ACMEFSHIGExample"
   },
   {
-    "id": "MyPatient",
-    "type": "StructureDefinition",
-    "url": "https://fake-acme.org/fhir/ACME-FSH-IG-Example/StructureDefinition/MyPatient",
-    "version": "0.1.0",
-    "name": "MyPatient"
+    "id" : "MyPatient",
+    "type" : "StructureDefinition",
+    "url" : "https://fake-acme.org/fhir/ACME-FSH-IG-Example/StructureDefinition/MyPatient",
+    "version" : "0.1.0",
+    "name" : "MyPatient"
   }
 ]

@@ -1,29 +1,21 @@
 {
-  "resourceType": "Patient",
-  "id": "EveAnyperson",
-  "meta": {
-    "profile": [
-      "https://fake-acme.org/fhir/ACME-FSH-IG-Example/StructureDefinition/MyPatient"
-    ]
+  "resourceType" : "Patient",
+  "id" : "EveAnyperson",
+  "meta" : {
+    "profile" : ["https://fake-acme.org/fhir/ACME-FSH-IG-Example/StructureDefinition/MyPatient"]
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Eve Anyperson </b> female, DoB Unknown ( id: 1032702 (USUAL))</p><hr/></div>"
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient EveAnyperson</b></p><a name=\"EveAnyperson\"> </a><a name=\"hcEveAnyperson\"> </a><a name=\"EveAnyperson-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-MyPatient.html\">MyPatient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Eve Anyperson  Female, DoB Unknown ( https://fake-acme.org/fhir/NamingSystem/Patient-Identifier#1032702\u00a0(use:\u00a0usual,\u00a0))</p><hr/></div>"
   },
-  "identifier": [
-    {
-      "use": "usual",
-      "system": "https://fake-acme.org/fhir/NamingSystem/Patient-Identifier",
-      "value": "1032702"
-    }
-  ],
-  "name": [
-    {
-      "family": "Anyperson",
-      "given": [
-        "Eve"
-      ]
-    }
-  ],
-  "gender": "female"
+  "identifier" : [{
+    "use" : "usual",
+    "system" : "https://fake-acme.org/fhir/NamingSystem/Patient-Identifier",
+    "value" : "1032702"
+  }],
+  "name" : [{
+    "family" : "Anyperson",
+    "given" : ["Eve"]
+  }],
+  "gender" : "female"
 }
